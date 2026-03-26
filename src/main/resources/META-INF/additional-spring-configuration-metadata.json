@@ -1,0 +1,28 @@
+{
+  "properties": [
+    {
+      "name": "admin.username",
+      "type": "java.lang.String",
+      "description": "Simple admin username for portal login.",
+      "defaultValue": "admin"
+    },
+    {
+      "name": "admin.password",
+      "type": "java.lang.String",
+      "description": "Simple admin password for portal login.",
+      "defaultValue": "admin123"
+    },
+    {
+      "name": "app.public-base-url",
+      "type": "java.lang.String",
+      "description": "Public base URL used when generating uploaded image links.",
+      "defaultValue": "http://localhost:8080"
+    },
+    {
+      "name": "app.upload.directory",
+      "type": "java.lang.String",
+      "description": "Directory on disk where uploaded images are stored.",
+      "defaultValue": "uploads"
+    }
+  ]
+}
